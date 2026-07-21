@@ -20,3 +20,10 @@
 - доминирующие стратегии, монополизация, гриферство и необратимый ущерб.
 
 Используйте [шаблон](template.md). После решения обновите соответствующий системный документ, `design/decisions.md` и `design/open-questions.md`. Сам thought experiment сохраняет аргументацию, но не становится каноном целиком.
+
+## Разборы
+
+- [TE-001 — Специализация и респек](TE-001-specialization-and-respec.md)
+- [TE-002 — Пути развития и мастерства](TE-002-profession-trees-and-mastery.md)
+- [TE-003 — Физическая торговля и возможная специализация торговца](TE-003-physical-trade-and-logistics.md)
+- [TE-004 — Чертежи и граница строительства](TE-004-blueprints-and-construction.md)
