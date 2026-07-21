@@ -27,3 +27,7 @@
 - [TE-002 — Пути развития и мастерства](TE-002-profession-trees-and-mastery.md)
 - [TE-003 — Физическая торговля и возможная специализация торговца](TE-003-physical-trade-and-logistics.md)
 - [TE-004 — Чертежи и граница строительства](TE-004-blueprints-and-construction.md)
+- [TE-005 — Пять брейкпоинтов лесного направления](TE-005-forest-progression-breakthroughs.md)
+- [TE-006 — Пять брейкпоинтов строительства](TE-006-construction-breakpoints.md)
+- [TE-007 — Граница строительства для добычи](TE-007-extraction-and-construction-boundary.md)
+- [TE-008 — Общие и профильные чертежи](TE-008-general-and-profession-blueprints.md)
