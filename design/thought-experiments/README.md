@@ -31,3 +31,4 @@
 - [TE-006 — Пять брейкпоинтов строительства](TE-006-construction-breakpoints.md)
 - [TE-007 — Граница строительства для добычи](TE-007-extraction-and-construction-boundary.md)
 - [TE-008 — Общие и профильные чертежи](TE-008-general-and-profession-blueprints.md)
+- [TE-009 — Королевские постройки, содержание и разбор](TE-009-kingdom-construction-and-dismantling.md)
