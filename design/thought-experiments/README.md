@@ -21,6 +21,8 @@
 
 Используйте [шаблон](template.md). После решения обновите соответствующий системный документ, `design/decisions.md` и `design/open-questions.md`. Сам thought experiment сохраняет аргументацию, но не становится каноном целиком.
 
+Слово «поселение» в ранних разборах может использоваться как обычное описание плотной группы хозяйств. После [TE-011](TE-011-farms-kingdoms-and-settlements.md) оно не обозначает отдельную системную сущность.
+
 ## Разборы
 
 - [TE-001 — Специализация и респек](TE-001-specialization-and-respec.md)
@@ -32,3 +34,7 @@
 - [TE-007 — Граница строительства для добычи](TE-007-extraction-and-construction-boundary.md)
 - [TE-008 — Общие и профильные чертежи](TE-008-general-and-profession-blueprints.md)
 - [TE-009 — Королевские постройки, содержание и разбор](TE-009-kingdom-construction-and-dismantling.md)
+- [TE-010 — Собственность и судьба общей инфраструктуры](TE-010-ownership-and-common-infrastructure.md)
+- [TE-011 — Нужна ли системная сущность поселения](TE-011-farms-kingdoms-and-settlements.md)
+- [TE-012 — Стартовые ресурсы и возобновляемый спрос](TE-012-starting-resources-and-demand.md)
+- [TE-013 — Один личный приват и масштабирование содержания](TE-013-one-personal-claim-and-upkeep-scaling.md)
