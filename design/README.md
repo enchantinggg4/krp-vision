@@ -6,7 +6,7 @@
 
 1. [Столпы дизайна](design-pillars.md) — критерии, которым должны соответствовать механики.
 2. [Основной цикл](core-loop.md) — связь личной игры, экономики, локальной кооперации, королевств и сезонной победы.
-3. Системные документы, включая [специализацию](specialization.md), [экономику](economy-and-resources.md), [строительство](construction.md), [собственность](ownership-and-infrastructure.md) и [королевства](kingdoms-and-local-cooperation.md), — текущее описание отдельных частей игры.
+3. Системные документы, включая [специализацию](specialization.md), [экономику](economy-and-resources.md), [инвентарь](inventory-and-item-logistics.md), [строительство](construction.md), [собственность](ownership-and-infrastructure.md), [камеру](camera-and-perspective.md) и [королевства](kingdoms-and-local-cooperation.md), — текущее описание отдельных частей игры.
 4. [Открытые вопросы](open-questions.md) — реальные механические развилки.
 5. [Принятые решения](decisions.md) — краткий журнал оснований текущей модели.
 6. [Backlog](backlog.md) — баланс, контент, реализация и будущие проверки.

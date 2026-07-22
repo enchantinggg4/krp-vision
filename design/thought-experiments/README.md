@@ -1,6 +1,6 @@
 # Thought experiments
 
-Здесь хранятся рабочие разборы механических вопросов до изменения канона.
+Здесь хранятся рабочие разборы механических вопросов до изменения канона. Незавершённые разборы находятся в `active/`, а завершённые и сменившие роль на историческое обоснование — в `archive/`.
 
 Каждый файл рассматривает один вопрос, сравнивает несколько существенно разных вариантов и заканчивается одним из результатов:
 
@@ -19,22 +19,27 @@
 - влияние на соседние системы и пути сезонной победы;
 - доминирующие стратегии, монополизация, гриферство и необратимый ущерб.
 
-Используйте [шаблон](template.md). После решения обновите соответствующий системный документ, `design/decisions.md` и `design/open-questions.md`. Сам thought experiment сохраняет аргументацию, но не становится каноном целиком.
+Используйте [шаблон](template.md). После решения обновите соответствующий системный документ, `design/decisions.md` и `design/open-questions.md`, а завершённый разбор перенесите в `archive/`. Сам thought experiment сохраняет аргументацию, но не становится каноном целиком.
 
-Слово «поселение» в ранних разборах может использоваться как обычное описание плотной группы хозяйств. После [TE-011](TE-011-farms-kingdoms-and-settlements.md) оно не обозначает отдельную системную сущность.
+Архив не описывает текущие правила сам по себе. За действующим правилом нужно обращаться к системным документам и [журналу решений](../decisions.md). Старые термины и отвергнутые варианты сохраняются в архиве как часть аргументации. Например, слово «поселение» в ранних разборах может означать обычную плотную группу хозяйств, но после [TE-011](archive/TE-011-farms-kingdoms-and-settlements.md) не обозначает отдельную системную сущность.
 
-## Разборы
+## Активные разборы
 
-- [TE-001 — Специализация и респек](TE-001-specialization-and-respec.md)
-- [TE-002 — Пути развития и мастерства](TE-002-profession-trees-and-mastery.md)
-- [TE-003 — Физическая торговля и возможная специализация торговца](TE-003-physical-trade-and-logistics.md)
-- [TE-004 — Чертежи и граница строительства](TE-004-blueprints-and-construction.md)
-- [TE-005 — Пять брейкпоинтов лесного направления](TE-005-forest-progression-breakthroughs.md)
-- [TE-006 — Пять брейкпоинтов строительства](TE-006-construction-breakpoints.md)
-- [TE-007 — Граница строительства для добычи](TE-007-extraction-and-construction-boundary.md)
-- [TE-008 — Общие и профильные чертежи](TE-008-general-and-profession-blueprints.md)
-- [TE-009 — Королевские постройки, содержание и разбор](TE-009-kingdom-construction-and-dismantling.md)
-- [TE-010 — Собственность и судьба общей инфраструктуры](TE-010-ownership-and-common-infrastructure.md)
-- [TE-011 — Нужна ли системная сущность поселения](TE-011-farms-kingdoms-and-settlements.md)
-- [TE-012 — Стартовые ресурсы и возобновляемый спрос](TE-012-starting-resources-and-demand.md)
-- [TE-013 — Один личный приват и масштабирование содержания](TE-013-one-personal-claim-and-upkeep-scaling.md)
+- [TE-003 — Физическая торговля и возможная специализация торговца](active/TE-003-physical-trade-and-logistics.md) — самостоятельность шестого пути не доказана.
+- [TE-005 — Пять прорывов лесного направления](active/TE-005-forest-progression-breakthroughs.md) — рабочая модель требует проверки пятого прорыва.
+- [TE-007 — Граница строительства для добычи](active/TE-007-extraction-and-construction-boundary.md) — рабочая гипотеза ещё не перенесена в канон.
+
+## Архив
+
+- [TE-001 — Специализация и респек](archive/TE-001-specialization-and-respec.md)
+- [TE-002 — Пути развития и мастерства](archive/TE-002-profession-trees-and-mastery.md)
+- [TE-004 — Чертежи и граница строительства](archive/TE-004-blueprints-and-construction.md)
+- [TE-006 — Пять прорывов строительства](archive/TE-006-construction-breakpoints.md)
+- [TE-008 — Общие и профильные чертежи](archive/TE-008-general-and-profession-blueprints.md)
+- [TE-009 — Королевские постройки, содержание и разбор](archive/TE-009-kingdom-construction-and-dismantling.md)
+- [TE-010 — Собственность и судьба общей инфраструктуры](archive/TE-010-ownership-and-common-infrastructure.md)
+- [TE-011 — Нужна ли системная сущность поселения](archive/TE-011-farms-kingdoms-and-settlements.md)
+- [TE-012 — Стартовые ресурсы и возобновляемый спрос](archive/TE-012-starting-resources-and-demand.md)
+- [TE-013 — Один личный приват и масштабирование содержания](archive/TE-013-one-personal-claim-and-upkeep-scaling.md)
+- [TE-014 — Перспектива камеры и физические действия](archive/TE-014-camera-perspective-and-physical-actions.md)
+- [TE-015 — Виртуальные предметы и сеточный инвентарь](archive/TE-015-virtual-items-and-grid-inventory.md)
