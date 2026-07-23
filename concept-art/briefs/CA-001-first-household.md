@@ -25,5 +25,3 @@
 ## Изображения
 
 - **[Стартовый визуальный референс](../images/CA-001-first-household-v4-grounded-low-poly.png)**
-- [Первое хозяйство](../images/CA-001-first-household-v1.png)
-- [Хозяйство с персонажем](../images/CA-001-first-household-v2-character.png)
