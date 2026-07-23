@@ -1,0 +1,4 @@
+interface:
+  display_name: "Requirement Theses"
+  short_description: "Discover solution-neutral requirements"
+  default_prompt: "Use $build-requirement-theses to discover and approve solution-neutral requirements one at a time before designing the system."
