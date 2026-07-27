@@ -136,6 +136,159 @@ body {
   color: var(--krp-text-muted);
 }
 
+.theme-doc-markdown .krp-overview-lead {
+  max-width: 66ch;
+  margin: -0.35rem 0 2rem;
+  color: var(--krp-text-muted);
+  font-size: clamp(1.14rem, 2vw, 1.34rem);
+  line-height: 1.65;
+}
+
+.theme-doc-markdown .krp-overview-lead p {
+  margin: 0;
+}
+
+.theme-doc-markdown .krp-overview-hero,
+.theme-doc-markdown .krp-overview-action figure {
+  margin: 0;
+}
+
+.theme-doc-markdown .krp-overview-hero img,
+.theme-doc-markdown .krp-overview-action img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  border: 1px solid var(--krp-line);
+  border-radius: var(--krp-radius);
+  background: var(--krp-surface-muted);
+  object-fit: cover;
+}
+
+.theme-doc-markdown .krp-overview-hero img {
+  aspect-ratio: 16 / 9;
+}
+
+.theme-doc-markdown .krp-overview-hero figcaption,
+.theme-doc-markdown .krp-overview-action figcaption {
+  max-width: 72ch;
+  margin-top: 0.75rem;
+  color: var(--krp-text-subtle);
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
+.theme-doc-markdown .krp-overview-flow {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem 2rem;
+  margin: 2rem 0;
+  padding: 0;
+  counter-reset: krp-overview-step;
+  list-style: none;
+}
+
+.theme-doc-markdown .krp-overview-flow li {
+  display: grid;
+  grid-template-columns: 2.2rem minmax(0, 1fr);
+  gap: 0 0.8rem;
+  max-width: none;
+  padding-top: 1rem;
+  border-top: 1px solid var(--krp-line);
+  counter-increment: krp-overview-step;
+}
+
+.theme-doc-markdown .krp-overview-flow li::before {
+  grid-row: 1 / span 2;
+  color: var(--krp-accent);
+  font-family: var(--krp-font-display);
+  font-size: 1.5rem;
+  line-height: 1.1;
+  content: counter(krp-overview-step, decimal-leading-zero);
+}
+
+.theme-doc-markdown .krp-overview-flow li:last-child {
+  grid-column: 1 / -1;
+}
+
+.theme-doc-markdown .krp-overview-flow strong,
+.theme-doc-markdown .krp-overview-flow span {
+  grid-column: 2;
+}
+
+.theme-doc-markdown .krp-overview-flow strong {
+  color: var(--krp-text);
+  font-size: 0.98rem;
+}
+
+.theme-doc-markdown .krp-overview-flow span {
+  margin-top: 0.25rem;
+  color: var(--krp-text-muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.theme-doc-markdown .krp-overview-action {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(16rem, 0.92fr);
+  gap: 2rem;
+  align-items: start;
+  margin: 1.75rem 0 0;
+}
+
+.theme-doc-markdown .krp-overview-action img {
+  aspect-ratio: 4 / 3;
+}
+
+.theme-doc-markdown .krp-overview-action p:first-child {
+  margin-top: 0;
+}
+
+.theme-doc-markdown .krp-overview-action ul {
+  padding-left: 1.2rem;
+}
+
+.theme-doc-markdown .krp-overview-contrast {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: 1.75rem 0;
+}
+
+.theme-doc-markdown .krp-overview-contrast section {
+  padding: 1.4rem 1.5rem;
+  border: 1px solid var(--krp-line);
+  border-radius: var(--krp-radius);
+  background: var(--krp-surface-raised);
+}
+
+.theme-doc-markdown .krp-overview-contrast h3 {
+  margin: 0 0 0.7rem;
+  font-size: 1.35rem;
+}
+
+.theme-doc-markdown .krp-overview-contrast p {
+  margin: 0;
+  color: var(--krp-text-muted);
+  font-size: 0.93rem;
+  line-height: 1.65;
+}
+
+.theme-doc-markdown .krp-overview-next {
+  margin: 1.5rem 0 2rem;
+  padding: 1.5rem 1.75rem;
+  border-radius: var(--krp-radius);
+  background: var(--krp-surface-muted);
+}
+
+.theme-doc-markdown .krp-overview-next ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.theme-doc-markdown .krp-overview-next li + li {
+  margin-top: 0.55rem;
+}
+
 .theme-doc-sidebar-container {
   border-right-color: var(--krp-line) !important;
 }
@@ -173,6 +326,26 @@ body {
 @media (max-width: 996px) {
   .navbar__items--right .navbar__item {
     display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .theme-doc-markdown .krp-overview-flow,
+  .theme-doc-markdown .krp-overview-action,
+  .theme-doc-markdown .krp-overview-contrast {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .theme-doc-markdown .krp-overview-flow li:last-child {
+    grid-column: auto;
+  }
+
+  .theme-doc-markdown .krp-overview-action {
+    gap: 1.4rem;
+  }
+
+  .theme-doc-markdown .krp-overview-next {
+    padding: 1.2rem 1.25rem;
   }
 }
 

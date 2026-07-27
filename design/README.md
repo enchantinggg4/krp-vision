@@ -4,13 +4,14 @@
 
 ## Точка отсчёта
 
-1. [Столпы дизайна](design-pillars.md) — критерии, которым должны соответствовать механики.
+1. [Что это за игра](game-overview.md) — короткий визуальный обзор от личного хозяйства до сезонной борьбы королевств.
 2. [Основной цикл](core-loop.md) — связь личной игры, экономики, локальной кооперации, королевств и сезонной победы.
-3. Системные документы, включая [специализацию](specialization.md), [экономику](economy-and-resources.md), [инвентарь](inventory-and-item-logistics.md), [строительство](construction.md), [собственность](ownership-and-infrastructure.md), [камеру](camera-and-perspective.md) и [королевства](kingdoms-and-local-cooperation.md), — текущее описание отдельных частей игры.
-4. [Открытые вопросы](open-questions.md) — реальные механические развилки.
-5. [Принятые решения](decisions.md) — краткий журнал оснований текущей модели.
-6. [Backlog](backlog.md) — баланс, контент, реализация и будущие проверки.
-7. [Thought experiments](thought-experiments/README.md) — рабочие разборы до изменения канона.
+3. [Столпы дизайна](design-pillars.md) — критерии, которым должны соответствовать механики.
+4. Системные документы, включая [специализацию](specialization.md), [экономику](economy-and-resources.md), [инвентарь](inventory-and-item-logistics.md), [строительство](construction.md), [собственность](ownership-and-infrastructure.md), [камеру](camera-and-perspective.md) и [королевства](kingdoms-and-local-cooperation.md), — текущее описание отдельных частей игры.
+5. [Открытые вопросы](open-questions.md) — реальные механические развилки.
+6. [Принятые решения](decisions.md) — краткий журнал оснований текущей модели.
+7. [Backlog](backlog.md) — баланс, контент, реализация и будущие проверки.
+8. [Thought experiments](thought-experiments/README.md) — рабочие разборы до изменения канона.
 
 ## Статусы
 

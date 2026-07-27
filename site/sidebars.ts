@@ -4,9 +4,9 @@ const sidebars: SidebarsConfig = {
   designSidebar: [
     {
       type: 'category',
-      label: 'Образ игры',
+      label: 'Начать здесь',
       collapsed: false,
-      items: ['README', 'design-pillars', 'core-loop'],
+      items: ['game-overview', 'core-loop', 'design-pillars'],
     },
     {
       type: 'category',
@@ -46,6 +46,11 @@ const sidebars: SidebarsConfig = {
       label: 'Состояние дизайна',
       collapsed: false,
       items: ['decisions', 'open-questions', 'backlog'],
+    },
+    {
+      type: 'category',
+      label: 'Работа над дизайном',
+      items: ['README'],
     },
     {
       type: 'category',

@@ -27,7 +27,7 @@ function projectSnapshotPlugin(): Plugin<ProjectSnapshot> {
       const systemDocuments = fs
         .readdirSync(path.join(repositoryRoot, 'design'))
         .filter((file) => file.endsWith('.md'))
-        .filter((file) => !['README.md', 'decisions.md', 'open-questions.md', 'backlog.md'].includes(file)).length;
+        .filter((file) => !['README.md', 'game-overview.md', 'decisions.md', 'open-questions.md', 'backlog.md'].includes(file)).length;
 
       return {decisions, openQuestions, activeExperiments, systemDocuments};
     },
@@ -136,7 +136,7 @@ const config: Config = {
         {
           title: 'Основа',
           items: [
-            {label: 'Образ игры', to: '/design/'},
+            {label: 'Что это за игра', to: '/design/game-overview'},
             {label: 'Основной цикл', to: '/design/core-loop'},
             {label: 'Столпы дизайна', to: '/design/design-pillars'},
           ],
