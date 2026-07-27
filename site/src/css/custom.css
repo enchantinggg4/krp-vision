@@ -1,0 +1,183 @@
+@import '@fontsource-variable/manrope';
+@import '@fontsource-variable/source-serif-4';
+
+:root {
+  --krp-font-body: 'Manrope Variable', system-ui, sans-serif;
+  --krp-font-display: 'Source Serif 4 Variable', Georgia, serif;
+  --krp-accent: #2f6248;
+  --krp-accent-strong: #214b36;
+  --krp-accent-contrast: #f7faf6;
+  --krp-surface: #f4f5f1;
+  --krp-surface-raised: #fbfcf8;
+  --krp-surface-muted: #e9ece6;
+  --krp-text: #19211c;
+  --krp-text-muted: #536057;
+  --krp-text-subtle: #758077;
+  --krp-line: #cfd6cf;
+  --krp-radius: 12px;
+
+  --ifm-font-family-base: var(--krp-font-body);
+  --ifm-heading-font-family: var(--krp-font-display);
+  --ifm-color-primary: var(--krp-accent);
+  --ifm-color-primary-dark: #2a5841;
+  --ifm-color-primary-darker: #28533d;
+  --ifm-color-primary-darkest: #214532;
+  --ifm-color-primary-light: #346c4f;
+  --ifm-color-primary-lighter: #377153;
+  --ifm-color-primary-lightest: #3e805e;
+  --ifm-background-color: var(--krp-surface);
+  --ifm-background-surface-color: var(--krp-surface-raised);
+  --ifm-navbar-background-color: color-mix(in srgb, var(--krp-surface) 90%, transparent);
+  --ifm-footer-background-color: #1b261f;
+  --ifm-code-font-size: 92%;
+  --ifm-global-radius: var(--krp-radius);
+  --ifm-menu-color-background-active: color-mix(in srgb, var(--krp-accent) 10%, transparent);
+  --ifm-toc-border-color: var(--krp-line);
+}
+
+[data-theme='dark'] {
+  --krp-accent: #7faf91;
+  --krp-accent-strong: #6b9d7e;
+  --krp-accent-contrast: #122018;
+  --krp-surface: #151b17;
+  --krp-surface-raised: #1b231e;
+  --krp-surface-muted: #202a23;
+  --krp-text: #edf2ed;
+  --krp-text-muted: #b4c0b7;
+  --krp-text-subtle: #8f9d93;
+  --krp-line: #344139;
+
+  --ifm-color-primary: var(--krp-accent);
+  --ifm-color-primary-dark: #72a385;
+  --ifm-color-primary-darker: #6b9d7e;
+  --ifm-color-primary-darkest: #598269;
+  --ifm-color-primary-light: #8cbb9d;
+  --ifm-color-primary-lighter: #93c1a3;
+  --ifm-color-primary-lightest: #add2b9;
+  --ifm-background-color: var(--krp-surface);
+  --ifm-background-surface-color: var(--krp-surface-raised);
+  --ifm-navbar-background-color: color-mix(in srgb, var(--krp-surface) 91%, transparent);
+  --ifm-footer-background-color: #101612;
+  --ifm-menu-color-background-active: color-mix(in srgb, var(--krp-accent) 13%, transparent);
+  --ifm-toc-border-color: var(--krp-line);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--krp-text);
+  background: var(--krp-surface);
+  font-variation-settings: 'wght' 470;
+}
+
+.navbar {
+  min-height: 64px;
+  border-bottom: 1px solid var(--krp-line);
+  box-shadow: none;
+  backdrop-filter: blur(18px);
+}
+
+.navbar__inner {
+  margin-inline: auto;
+  max-width: 1440px;
+}
+
+.navbar__title {
+  font-family: var(--krp-font-display);
+  font-size: 1.35rem;
+  font-weight: 620;
+  letter-spacing: -0.025em;
+}
+
+.navbar__link {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: var(--krp-accent);
+}
+
+.theme-doc-markdown {
+  font-size: 1.02rem;
+  line-height: 1.76;
+}
+
+.theme-doc-markdown > h1:first-child {
+  max-width: 16ch;
+  margin-bottom: 2rem;
+  font-size: clamp(2.7rem, 5vw, 4.8rem);
+  font-weight: 570;
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+}
+
+.theme-doc-markdown h2 {
+  margin-top: 3.6rem;
+  font-size: clamp(1.85rem, 3vw, 2.65rem);
+  font-weight: 570;
+  letter-spacing: -0.03em;
+}
+
+.theme-doc-markdown h3 {
+  margin-top: 2.5rem;
+}
+
+.theme-doc-markdown p,
+.theme-doc-markdown li {
+  max-width: 74ch;
+}
+
+.theme-doc-markdown blockquote {
+  border-left: 3px solid var(--krp-accent);
+  color: var(--krp-text-muted);
+}
+
+.theme-doc-sidebar-container {
+  border-right-color: var(--krp-line) !important;
+}
+
+.menu__link {
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.pagination-nav__link {
+  border-color: var(--krp-line);
+  border-radius: var(--krp-radius);
+}
+
+.table-of-contents__link--active,
+.table-of-contents__link:hover {
+  color: var(--krp-accent);
+}
+
+.footer {
+  border-top: 1px solid color-mix(in srgb, var(--krp-accent) 30%, transparent);
+}
+
+.footer__title {
+  color: #d9e5dc;
+  font-family: var(--krp-font-display);
+  font-size: 1.12rem;
+}
+
+.footer__link-item,
+.footer__copyright {
+  color: #aebcb2;
+}
+
+@media (max-width: 996px) {
+  .navbar__items--right .navbar__item {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
