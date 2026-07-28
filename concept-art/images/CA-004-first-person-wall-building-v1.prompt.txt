@@ -1,0 +1,38 @@
+Use case: stylized-concept
+Asset type: one 16:9 first-person gameplay concept art for Kingdom RPG
+
+Input images:
+- Image 1 defines the grounded clean low-poly world style: muted natural palette, large readable timber and stone forms, faceted forest, adult proportions, soft daylight and low visual noise.
+- Image 2 defines the first-person camera language: believable forearms and hands in the foreground, one precise physical action at close range, world still readable around the interaction. Do not copy its tree, axe, orange X, wound or exact composition.
+
+Primary scene:
+Show HOW a player physically builds a defensive timber wall from FIRST PERSON.
+
+The player stands on a simple wooden work platform at mid-height beside a partially assembled wall segment. Directly in front of the camera is one large, mechanically readable timber joint:
+- a heavy vertical squared post;
+- a horizontal structural beam already seated into a mortise in the post;
+- a diagonal brace already aligned beneath it;
+- one thick wooden peg partly inserted through the joint.
+
+The player's LEFT hand steadies the diagonal brace and the joint from a safe position away from the peg head. The player's RIGHT hand holds a short heavy wooden carpenter's mallet, raised just before striking the exposed peg. The pose must be anatomically believable and clearly read as fastening a prepared structural connection, not chopping, mining, fighting or carrying material.
+
+The active joint is the main focal point. Use subtle physical feedback only: a little fresh wood dust, compressed fibers around the peg and a pale chalk alignment mark drawn directly on the timber. No glowing target or magical effect.
+
+Wall context:
+- The active segment is a sturdy medieval defensive timber wall under construction on a low rough-stone foundation.
+- To the left, only a short portion of already assembled wall establishes what the structure will become.
+- To the right, a few bare posts and braces show the continuing construction frame, but do not turn the image into a diagram of progress stages.
+- Below the platform, a single construction stock-pallet contains static models of prepared beams, pegs and stones. No character carries these materials.
+- Keep the wall practical and substantial, not a giant castle fortification.
+
+Camera and composition:
+True first-person view at arm's reach from the joint. Both forearms enter naturally from the bottom edge. The mallet and peg occupy the center-right foreground; the post-beam-brace connection fills the central view. The wall line recedes gently into a quiet landscape, leaving enough context to understand that this is a wall rather than a standalone carpentry bench.
+
+Environment:
+A restrained grassy borderland with a dirt road, sparse conifer forest and distant low-poly hills. Soft neutral afternoon daylight. No battle, enemies or settlement crowd.
+
+Intent:
+The image should make construction feel like a short deliberate physical operation performed at a specific part of the structure. It must not resemble holding a button beside a progress bar.
+
+Constraints:
+One coherent image only. No third-person character, no other workers, no UI, progress bar, percentages, text, labels, icons, glowing hologram, ghost blueprint, orange X, magic, sparks, combat, weapons, axe, pickaxe, carried log, loose floating parts, modern screws, power tools, cranes, dense scaffolding, giant castle, excessive props or decorative clutter. The player holds only the carpenter's mallet; all large materials are already positioned in the construction frame or stored on the pallet below.

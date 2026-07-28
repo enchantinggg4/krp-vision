@@ -1,0 +1,36 @@
+Use case: precise-object-edit
+Asset type: mechanically credible 16:9 Kingdom RPG sawmill concept art
+
+Input images:
+- Image 1 is the EDIT TARGET for overall composition and subject.
+- Image 2 is the strict STYLE REFERENCE for clean grounded low-poly forms, adult blocky characters, restrained detail, muted natural materials and soft daylight.
+
+Rebuild the sawmill mechanism in Image 1 so it reads as a credible early water-powered sash sawmill.
+
+Correct mechanical layout:
+- The sawmill is a simple elongated open-sided timber shed built beside a narrow millrace.
+- A LONG STRAIGHT HORIZONTAL LOG CARRIAGE / FEED BED runs lengthwise from the left foreground into the building and continues through the cutting station. It is the dominant structural line.
+- ONE full log is already secured horizontally on this carriage. The log points in exactly the same direction as the carriage and advances lengthwise into the mill. It is a static working representation of an item already placed in the sawmill's processing inventory; nobody is carrying or touching it.
+- At the center of the building is ONE narrow VERTICAL SASH-SAW BLADE held inside a rectangular wooden reciprocating frame. The blade moves up and down.
+- CRITICAL ORIENTATION: the vertical blade's plane is PARALLEL to the long axis of the horizontal log and carriage, so it cuts a long board along the grain. It must NOT face broadside across the log like a crosscut saw. From the camera angle, the blade should appear mostly edge-on or slightly oblique, visibly aligned with the feed direction.
+- The log carriage advances straight through the vertical saw frame; it does not approach the blade sideways.
+- A large waterwheel outside the right wall drives a visible simple wooden crank wheel, pitman rod and linkage connected to the vertical sash frame. The mechanism must form one understandable chain: waterwheel -> rotating axle/crank -> reciprocating connecting rod -> vertical saw frame.
+- Do not use a circular saw, horizontal band saw, giant exposed toothed slab, fantasy gear wall or unrelated machinery.
+- A small neat stack of finished long boards rests at the output side, aligned with the same processing direction.
+
+Inventory visualization:
+- Keep a separate cart parked on the left beside the start of the feed bed, with several raw logs visibly stacked inside it as STATIC cargo representation.
+- No loose cargo exists between cart and carriage.
+- No person carries, lifts, rolls, drags or holds a log, plank or crate.
+
+Characters:
+- Show exactly TWO human characters total.
+- One driver stands calmly beside the horse and loaded cart.
+- One sawyer stands at a fixed control position beside the carriage, with one hand on a small integrated wooden feed lever. The lever is visibly part of the machine and must not resemble a shovel, spear or loose hand tool.
+- No chest, no receiving clerk, no extra helper, no posed conversation.
+
+Composition:
+A clean wide three-quarter view that makes the complete machine geometry readable. Loaded cart at far left, long carriage leading into the open shed at center, vertical sash frame aligned with it, waterwheel and crank linkage visible on the right, finished boards beyond the cutting station. Leave generous negative space and keep the background forest and mountains soft.
+
+Constraints:
+Exactly two humans, one horse, one cart, one log on the carriage, one vertical sash-saw frame, one waterwheel and one small board stack. No chest, shovel, loose logs, manual unloading, UI, text, labels, arrows, diagrams, extra workers, extra buildings, dense settlement, combat, fantasy machinery or decorative clutter.

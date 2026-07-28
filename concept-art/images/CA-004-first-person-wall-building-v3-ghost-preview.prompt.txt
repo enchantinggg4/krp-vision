@@ -1,0 +1,20 @@
+Edit the provided game concept art while preserving the exact camera, composition, low-poly clean visual style, lighting, colors, and all existing physical construction.
+
+Keep:
+- true first-person view;
+- the right hand and wooden mallet striking the single small restrained orange X marker;
+- the current partially built physical timber defensive wall on its stone base;
+- the open timber frame continuing to the right;
+- the orange X as the strongest focal point and the only active interaction cue.
+
+Add one calm construction "ghost" preview: a semi-transparent projection of the COMPLETE FINISHED VERSION of this same defensive wall, perfectly registered to and aligned with the existing structure. The ghost should fill only the parts that have not physically been built yet, including the missing timber wall surfaces and finished upper contour extending through the open frame to the right. Existing solid wall, beams, hands, mallet, and marker must remain physically opaque and must not be covered or recolored by the ghost.
+
+Ghost treatment:
+- pale cool cyan-white / desaturated blue;
+- low opacity around 18–25%;
+- clean low-poly solid silhouette with subtle transparent facets, readable as future geometry;
+- restrained soft edge glow only, no bright hologram;
+- exact same scale, perspective, and construction footprint as the physical wall;
+- clearly distinct from the solid current state but not visually dominant.
+
+Do not add detailed carpentry, individual assembly instructions, peg or mortise interactions, material placement, floating resources, workers, UI panels, labels, text, percentages, progress bars, blueprint grids, particles, multiple markers, or split-screen comparison. The player interaction remains the simple minigame "hit the X"; the ghost only communicates the final wall volume.

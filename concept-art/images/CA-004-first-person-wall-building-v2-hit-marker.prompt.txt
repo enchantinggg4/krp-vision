@@ -1,0 +1,40 @@
+Use case: precise-object-edit
+Asset type: simplified 16:9 first-person construction gameplay concept for Kingdom RPG
+
+Input images:
+- Image 1 is the EDIT TARGET for the first-person wall-building scene and low-poly style.
+- Image 2 is the reference for the simple "hit the marked point" interaction language only.
+
+Simplify the construction fantasy radically.
+
+Remove ALL detailed carpentry mechanics from Image 1:
+- no mortise-and-tenon joint;
+- no wooden peg or dowel;
+- no diagonal brace being held by hand;
+- no hand aligning, placing or stabilizing any building part;
+- no depiction of assembling the wall piece by piece;
+- no chalk construction diagram, measurements, joinery detail or realistic fastening process.
+
+Replacement action:
+The construction frame and partially built wall already exist as one generic system-created structure. On one broad flat timber surface near the center is exactly ONE small restrained orange painted X-shaped work marker, visually similar in simplicity to Image 2. The marker is a gameplay target, not a physical building component and not a magical glow.
+
+Show a true first-person view at arm's reach:
+- the player's RIGHT hand holds a simple short-handled construction mallet;
+- the mallet is making contact with, or is immediately about to strike, the orange X;
+- the player's LEFT hand is empty and relaxed at the lower-left edge, not touching the wall or any material;
+- a tiny puff of ordinary wood dust at the impact point provides feedback.
+
+The action should read as a lightweight construction minigame: find the current marked point and hit it. The game system handles the abstract work progress and later physical wall update. Do not imply that the player personally installs beams, pegs, stones or panels.
+
+Wall context:
+- a straightforward heavy timber defensive wall construction frame on a low stone foundation;
+- one nearby section has some completed timber infill;
+- the continuing frame recedes into the background;
+- keep forms broad, generic and system-like, with little structural detail;
+- a small stock pallet may remain far below as background context, but it is not part of the active interaction.
+
+Composition:
+The orange X and mallet head are the sole focal point. The wall fills most of the frame but enough landscape remains visible to identify an outdoor defensive wall. Clean grounded low-poly style, muted daylight, restrained forest and hills, low visual noise.
+
+Constraints:
+One coherent image only. No peg, nail, screw, mortise, brace installation, material placement, carried part, physical assembly fantasy, blueprint, progress bar, percentage, text, label, extra UI panel, multiple markers, glowing hologram, sparks, magic, other characters, combat, axe, pickaxe, power tool, dense scaffolding or decorative clutter. Exactly one orange X marker and one mallet.

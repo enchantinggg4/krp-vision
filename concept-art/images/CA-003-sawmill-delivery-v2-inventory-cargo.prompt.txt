@@ -1,0 +1,26 @@
+Use case: precise-object-edit
+Asset type: corrected 16:9 Kingdom RPG concept art
+
+Image 1 is the EDIT TARGET. Preserve its clean grounded low-poly style, camera, lighting, forest road, horse, loaded cart, sawmill, waterwheel, plank stack, muted palette, and four-character scale.
+
+Correct one mechanical error:
+NO character may physically carry, lift, roll, drag, hold, or touch a loose log. Remove the large log currently suspended between the characters and remove the unloading ramp as a device for moving physical logs.
+
+Inventory visualization rule:
+- Keep the raw logs visibly stacked inside the cart. These logs are a static visual representation of cargo stored in the cart's virtual grid inventory.
+- The visible cargo models remain attached to the cart and are not separate simulated objects.
+- Keep the finished boards visibly stacked beside the sawmill as a static visual representation of stored output.
+- Do not show any resource item in a character's hands.
+
+Repose the same four characters:
+1. the driver remains beside the horse and cart;
+2. one logistics worker stands at the side of the cart with a hand near a small built-in storage latch or access point, clearly interacting with the cart inventory without holding cargo;
+3. one sawmill worker stands at the receiving platform near a fixed intake chest or storage hatch, clearly interacting with the sawmill's input inventory without holding cargo;
+4. the sawmill operator stands beside the saw mechanism or control lever, ready to process the delivered inventory.
+
+Make the relationship readable through proximity and orientation: cart parked immediately beside the sawmill receiving platform, logistics worker facing the cart access point, receiving worker facing the sawmill intake. The scene represents a delivery between two world-bound inventories, not manual handling of physical logs.
+
+Keep the composition calm and sparse. Maintain exactly four humans, one horse, one cart, one sawmill and one small plank stack.
+
+Constraints:
+No loose log outside the cart. No log in hands. No physical unloading, rolling, lifting or dragging. No crates in hands. No UI panels, inventory grids, icons, arrows, text, labels, names, diagrams or split screen. No extra people, wagons, buildings, resources or clutter.

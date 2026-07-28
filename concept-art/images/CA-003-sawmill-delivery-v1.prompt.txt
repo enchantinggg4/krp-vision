@@ -1,0 +1,33 @@
+Use case: stylized-concept
+Asset type: one 16:9 game concept-art scene for Kingdom RPG
+
+Use Image 1 as the strict visual-style reference: the same grounded clean low-poly 3D language, angular readable adult characters, large simple shapes, faceted forest and mountains, muted natural palette, believable timber and stone, soft daylight, and minimal visual noise. Do not copy its exact homestead, character, first-person weapon, or any text.
+
+Primary scene:
+A calm, readable moment of physical resource logistics at a small medieval sawmill. A wooden two-wheel cart loaded with a modest bundle of raw logs has just arrived from a forest road. Four characters cooperate around one clear handoff:
+1. one driver stands beside the front of the cart holding the reins of a single simple draft horse;
+2. two workers unload one large log together down a short wooden ramp;
+3. one sawmill operator waits at the receiving platform and guides where the log should go.
+
+The SAWMILL is the main destination at center-right: a compact practical timber workshop with an open processing bay, a large vertical saw mechanism or water-powered frame visibly associated with cutting logs, and a short receiving platform. It must read immediately as a working sawmill, not a house, barn, tavern, warehouse, or fantasy factory.
+
+Place one small orderly stack of finished planks to the far right of the sawmill. This creates one clear visual sequence:
+LOG CART on the left -> ACTIVE UNLOADING in the center -> SAWMILL at center-right -> FINISHED PLANKS on the right.
+
+Composition:
+Wide ground-level three-quarter establishing view, slightly elevated enough to read the cart, the unloading action, the sawmill entrance and the finished boards. Keep generous open space between objects and characters. No one is posing for the camera. All figures are engaged in practical work.
+
+Environment:
+A simple packed-earth road arrives from a quiet conifer forest in the left background. Add only a narrow stream or restrained waterwheel if needed to make the sawmill function readable. Use distant low-poly mountains and sparse grass as a soft low-contrast background. No village, market square, other workshops, large settlement or dense props.
+
+Mood:
+Productive ordinary kingdom life, quiet cooperation, physical weight and useful work. Soft neutral morning daylight, grounded and adult, neither idyllic cartoon nor grimdark.
+
+Visual hierarchy:
+1. unloading the log;
+2. loaded cart and sawmill;
+3. finished plank stack;
+4. quiet landscape.
+
+Constraints:
+Exactly four human characters and one horse. One cart only. One sawmill only. One small finished-plank stack only. No UI, labels, names, floating icons, text, inventory grid, arrows, diagram, split panels, map, combat, guards, weapons, armor, fantasy machinery, smoke, dramatic weather, dense background settlement, extra wagons, piles of random crates, excessive logs, decorative clutter, or cinematic posing. Do not add character names or signage.
