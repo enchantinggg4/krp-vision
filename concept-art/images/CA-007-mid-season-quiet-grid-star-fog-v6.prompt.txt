@@ -1,0 +1,38 @@
+Use case: precise-object-edit
+Asset type: single 16:9 strategic overworld concept-art image
+
+Input images:
+- Image 1 is the EDIT TARGET. Preserve its overall world layout, near-top-down orthographic low-poly rendering, western kingdom on the left, eastern kingdom on the right, broad neutral belt, roads, rivers, forests, hills, settlements, neutral ruin and mineral landmark, and the three visibility states.
+- Image 2 is ONLY a reference for the pleasant terra-incognita treatment: very dark blue-black matte field with sparse tiny dim star-like speckles. Do not copy its retro pixel art, interface, borders, minimap, or composition.
+
+Primary edit:
+Make Image 1 substantially quieter and easier to read by demoting the hex segmentation from a dominant overlay to a subtle underlying structure.
+
+SEGMENT BOUNDARIES:
+- Remove the dark outlined border around every individual visible hex.
+- Do not draw a honeycomb mesh over the terrain.
+- The world is still fully divided into flat-top hex segments, but internal segment edges are almost invisible in the normal view: at most extremely faint hairline seams at roughly 5–8% opacity, visible only on close inspection.
+- Let continuous terrain, rivers and roads dominate visually and flow cleanly across segment boundaries.
+- Show kingdom ownership primarily with ONE thin restrained rust-red contour around the outer perimeter of the western controlled territory and ONE thin restrained slate-blue contour around the outer perimeter of the eastern controlled territory, instead of outlining every owned cell.
+- Neutral territory has no colored perimeter.
+- A single currently observed eastern frontier segment may have a subtle blue selection contour to prove it is blue-owned and current, but do not outline all eastern cells.
+- A small currently observed neutral scouting area may have only an extremely subtle neutral edge, no yellow and no glow.
+
+VISIBILITY:
+- Western kingdom territory remains fully observed, clear and natural in color.
+- Previously seen neutral and eastern land retains readable last-known terrain and structures beneath a gentle uniform neutral-gray translucent veil, only about 15–20% darker than current land.
+- Terra incognita reveals absolutely no terrain, structures, roads, resources, ownership or faction color.
+
+TERRA INCOGNITA:
+- Replace empty pure black with an elegant deep blue-black / charcoal matte texture inspired by Image 2.
+- Add sparse, irregular, extremely small muted blue-gray pinpricks and subtle low-contrast dust/grain, like distant stars on old game fog-of-war.
+- Keep it calm and understated, not a literal outer-space sky, not glitter, not magical particles, not a nebula.
+- The boundary between known land and terra incognita follows the hidden hex segmentation as a clean stepped hex silhouette.
+- Inside terra incognita, do NOT show the full hex grid. At most a barely perceptible occasional geometric seam, much darker than the stars.
+- The star texture carries no gameplay information and must never hint at terrain or ownership.
+
+Style:
+Clean grounded low-poly world map, muted natural palette, soft daylight, sparse readable detail, no painterly parchment look.
+
+Constraints:
+One complete image only. No panels, no labels, no legend, no UI, no text, no decorative frame, no compass. No yellow or third faction. No faction-colored surface fills. No strong grid overlay. No checkerboard. No glowing borders. Keep the map's existing composition and content while changing only grid emphasis, territory contour treatment, stale-overlay strength, and terra-incognita texture.

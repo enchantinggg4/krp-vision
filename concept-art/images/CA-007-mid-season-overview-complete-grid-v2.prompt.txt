@@ -1,0 +1,33 @@
+Generation mode: built-in imagegen, three-pass edit.
+
+## Pass 1 — Complete world segmentation and stronger knowledge states
+
+Use case: stylized-concept
+Asset type: revised non-playable far-zoom concept art for the surface strategic map of a seasonal medieval survival RPG.
+Input images: CA-007-mid-season-overview-fog-neutral-sites-v1.png is the edit target. CA-001-first-household-v4-grounded-low-poly.png is the authoritative visual-style reference.
+Primary change: make the entire physical world a complete seamless partition of equal hexagonal territorial segments. Every visible coordinate belongs to exactly one hex. The regular flat-top hex grid must tessellate continuously from edge to edge across the entire 16:9 frame, including all areas under terra incognita. There is no isolated island of mapped hexes, no empty backdrop, no unsegmented margin, no gaps, no fading end of the grid and no land outside the segmentation.
+Knowledge states:
+- Terra incognita covers many complete outer and frontier hexes with opaque near-black charcoal fog. Their subtle neutral hex outlines remain visible only to show the world partition, but absolutely no terrain, road, ownership tint, structure, landmark or faction information is visible inside. A black hex could belong to anyone or be neutral.
+- Previously explored segments show their last-known terrain and ownership beneath an unmistakable uniform cool-gray translucent dark veil. They are clearly darker and more desaturated than current observation while preserving roads, river and broad terrain.
+- Exactly one small connected group of 3–4 central neutral hexes is currently observed: full natural daylight, clearer contrast and undimmed olive-green terrain. The clear observed group should be immediately distinguishable from all stale known segments without labels, glow or UI.
+Map composition: western rust-red kingdom controls a substantial connected cluster on the left. Eastern slate-blue kingdom controls a substantial connected cluster on the right. They never touch, even at corners. A two-to-three-hex-wide neutral belt separates them. Ownership remains readable on known stale cells through restrained colored tint and borders.
+Far-zoom surface content only: continuous river, major roads, broad conifer masses, plains, low mountain forms and very sparse abstract development patches. No individual houses. Small controlled segments may contain tiny simplified town-hall silhouettes or development masses, but nothing large or repeated enough to dominate.
+Neutral landmarks: preserve one modest ancient stone ruin or dungeon entrance and one pale natural rare-resource outcrop in already known neutral territory. Keep them subtle, factionless and small. Do not reveal any landmark under terra incognita.
+Visual hierarchy: edge-to-edge hex tessellation and black terra incognita; strong separation between current clear cells and stale dimmed cells; red, neutral and blue territorial masses; continuous geography; rare neutral landmarks.
+Style: clean low-poly 3D, nearly orthographic top-down with slight tilt, broad faceted shapes, sparse detail, muted natural palette, soft daylight, no painterly texture, no photorealism.
+Avoid: finite island-shaped map, empty or unsegmented black background, grid stopping at the mapped region, terrain visible under terra incognita, faction colors under terra incognita, fog painted as irregular pixel texture, individual houses, detailed towns, UI, labels, icons, text, legend, compass, glow, giant dungeon portal, giant crystals, third faction, direct kingdom contact, raised board-game tiles, gaps, floating islands, literal walls around hexes, parchment, clutter, watermark.
+
+## Pass 2 — Remove third-faction color from current observation
+
+Use case: precise-object-edit
+Primary request: change only the small connected group of five bright yellow or gold currently observed hexes near the center-left of the river. Remove all yellow, gold, selection-highlight and third-faction appearance from those cells.
+Replacement treatment: render those five currently observed hexes in normal undimmed natural olive-green and earth-brown daylight, using the same neutral terrain palette as known neutral land. They differ from surrounding stale cells only because the surrounding stale cells retain their cool-gray translucent dark veil. Use ordinary neutral dark hex outlines, not bright borders, glow, selection rings or faction color.
+Preserve exactly: edge-to-edge flat-top hex tessellation across the entire frame; all opaque charcoal terra-incognita cells and their empty hidden interiors; every other hex state; red kingdom shape and color; blue kingdom shape and color; the broad neutral belt; river path; roads; forest and mountain placement; neutral ruin or dungeon entrance; pale neutral resource outcrop; top-down framing; low-poly style; sparse detail; image dimensions and composition.
+
+## Pass 3 — Restore readable current observation without a selection tint
+
+Use case: precise-object-edit
+Primary request: brighten only one connected current-observation area of exactly five neutral hexes near the center of the map, immediately left of the vertical river. The group must include the neutral hex containing the small stone ruin or dungeon entrance and its four closest neutral neighboring hexes.
+Treatment: remove the cool-gray stale-information veil so the cells show clear normal daytime terrain. Use natural muted olive-green grass, brown earth, dark green trees and gray stone. Increase clarity and natural saturation enough that the five cells are unmistakably more current than surrounding stale cells.
+Critical color constraint: no yellow, gold, lime, orange, blue, red, faction tint, selection color or glow. These cells remain neutral territory. Their hex borders stay the same thin neutral gray as other neutral cells.
+Preserve every other design decision: full edge-to-edge tessellating hex grid; opaque black terra-incognita cells with no hidden information; all stale known cells and their dim gray veil; rust-red kingdom on the left; slate-blue kingdom on the right; broad neutral separation; river, roads, forests, mountains, resource outcrop, ruin, map framing, sparse detail and dimensions.

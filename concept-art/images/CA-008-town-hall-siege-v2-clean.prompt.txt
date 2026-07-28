@@ -1,0 +1,43 @@
+Use case: precise-object-edit
+Asset type: one simplified 16:9 Kingdom RPG concept-art scene
+
+Image 1 is the EDIT TARGET. Preserve its grounded clean low-poly visual style, muted palette, overcast daylight, faction accents, core siege story, and wide three-quarter camera language. Create a cleaner re-composed version rather than adding new content.
+
+Primary edit:
+Reduce visual noise substantially and establish one unmistakable reading path:
+WOODEN BATTERING RAM in the lower-left foreground -> DAMAGED TOWN-HALL ENTRANCE at center -> THREE DEFENDERS above it.
+
+Town hall:
+- Keep one recognizable local civic town hall, but simplify it and make it less fortress-like.
+- Use a compact two-story stone-and-timber building with one small bell tower, one restrained wooden upper gallery, a plain pitched roof, and a broad damaged entrance.
+- Remove excessive crenellations, repeated posts, dense roof beams, extra balconies and fortress-like massing.
+- The building should be sturdy and temporarily defensible, but clearly a town hall rather than a fort or castle.
+- Leave generous open space around its silhouette.
+
+Characters:
+- Show exactly 8 clearly separated characters total.
+- Five rust-red attackers: three operating/pushing the ram, one shield bearer beside it, and one fighter nearer the entrance.
+- Three slate-blue defenders: two on the upper gallery and one near the roof/bell tower.
+- Use simple readable poses and silhouettes. No crowd, no repeated line of defenders, no partially cropped extra soldiers at frame edges.
+
+Siege engine:
+- Keep exactly one compact wheeled wooden battering ram with a simple protective timber roof.
+- Make it readable but smaller than in Image 1, so it does not fill the frame or hide the entrance.
+- Point it clearly toward the damaged doors.
+
+Environment:
+- Remove the supply cart completely.
+- Remove the distant village, wheat field, most fences, scattered barrels, loose rocks, and decorative debris.
+- Use a simple open trampled dirt approach, a few quiet grass patches, one soft forest edge and distant low-poly mountains.
+- Keep only minimal damage cues: splintered entrance, a few arrows in wood, light dust and one displaced fence section.
+- Make the background softer, lower-contrast and less detailed than the town hall and ram.
+
+Composition and hierarchy:
+- The town hall occupies the center-right but leaves breathing room around it.
+- The ram sits lower-left and creates a clear diagonal toward the damaged entrance.
+- Defenders form the final focal point directly above the entrance.
+- Large calm shapes, uncluttered negative space, clear separation between figures.
+- Landscape and sky should not compete with the siege.
+
+Constraints:
+One coherent image only. No UI, text, labels, names, icons, hex grid, progress bar, map view, magic, gore, corpses, flames, smoke cloud, catapult, trebuchet, second siege engine, supply cart, dense settlement, giant army, castle walls, high-fantasy armor, cinematic explosion, or excessive small props.

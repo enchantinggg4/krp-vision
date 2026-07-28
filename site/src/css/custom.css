@@ -227,6 +227,37 @@ body {
   line-height: 1.55;
 }
 
+.theme-doc-markdown .krp-overview-paths {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.75rem 0;
+}
+
+.theme-doc-markdown .krp-overview-paths section {
+  padding: 1.3rem 1.4rem;
+  border: 1px solid var(--krp-line);
+  border-radius: var(--krp-radius);
+  background: var(--krp-surface-raised);
+}
+
+.theme-doc-markdown .krp-overview-paths section:last-child {
+  grid-column: 1 / -1;
+}
+
+.theme-doc-markdown .krp-overview-paths h3 {
+  margin: 0 0 0.55rem;
+  color: var(--krp-accent);
+  font-size: 1.2rem;
+}
+
+.theme-doc-markdown .krp-overview-paths p {
+  margin: 0;
+  color: var(--krp-text-muted);
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
 .theme-doc-markdown .krp-overview-action {
   display: grid;
   grid-template-columns: minmax(0, 1.08fr) minmax(16rem, 0.92fr);
@@ -332,11 +363,16 @@ body {
 @media (max-width: 760px) {
   .theme-doc-markdown .krp-overview-flow,
   .theme-doc-markdown .krp-overview-action,
+  .theme-doc-markdown .krp-overview-paths,
   .theme-doc-markdown .krp-overview-contrast {
     grid-template-columns: minmax(0, 1fr);
   }
 
   .theme-doc-markdown .krp-overview-flow li:last-child {
+    grid-column: auto;
+  }
+
+  .theme-doc-markdown .krp-overview-paths section:last-child {
     grid-column: auto;
   }
 

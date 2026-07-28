@@ -1,0 +1,27 @@
+Use case: precise-object-edit
+Asset type: single 16:9 strategic overworld concept-art image
+
+Image 1 is the EDIT TARGET. Preserve its composition, terrain, settlements, roads, rivers, landmarks, low-poly style, ownership contours, visibility states, colors, lighting, star-textured terra incognita, and all existing content.
+
+Change ONLY the visibility of the world segmentation:
+
+- Restore a complete, regular flat-top hexagonal segment grid across the entire map.
+- Every coordinate belongs to exactly one segment, so the same consistent hex tessellation must continue across currently observed land, previously seen land, water, and terra incognita.
+- Draw every segment boundary, but make the grid extremely subtle and subordinate to the landscape.
+- On known terrain and water: use very thin soft neutral gray-brown hairlines at approximately 8–12% visual opacity, with low contrast and no dark halo. The lines should be just visible when deliberately looking for them, but should disappear perceptually when viewing the map as a whole.
+- Do not darken, tint, bevel, emboss, or shade individual cells. Each cell must remain part of one continuous landscape.
+- Rivers, roads, forests, mountains, settlements, and visibility overlays must visually dominate the grid.
+- On previously seen dimmed territory, keep exactly the same faint grid strength; do not increase its contrast.
+- Inside terra incognita, continue the complete hex tessellation using even fainter deep navy-gray seams at roughly 4–6% contrast over the starry texture. These seams may be barely visible, but they confirm that unknown space is also divided into segments.
+- Preserve the slightly stronger thin rust-red OUTER contour of the western kingdom and slate-blue OUTER contour of the eastern kingdom.
+- Preserve the subtle blue contour around the small actively observed eastern frontier segment.
+- Do not outline every owned segment in faction colors.
+
+The hierarchy must be:
+1. landscape and important landmarks;
+2. visibility state;
+3. kingdom outer boundaries;
+4. faint segment grid.
+
+Constraints:
+One complete image only. No UI, labels, legend, text, panels, yellow faction, colored cell fills, thick grid, glowing lines, checkerboard, or honeycomb dominating the art. The result should sit precisely between the previous two versions: the segments are always present and legible on inspection, but never noisy.

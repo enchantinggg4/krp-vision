@@ -1,0 +1,30 @@
+Create ONE single coherent 16:9 concept-art image, not a comparison sheet and not multiple panels.
+
+A clean grounded low-poly strategic WORLD SURFACE MAP, near-top-down orthographic view, matching the restrained visual language of the reference image: simple readable geometry, muted natural materials, soft daylight, sparse detail, no painterly fantasy-map look.
+
+The entire visible world surface is partitioned into an integrated flat-top hexagonal segmentation. Every coordinate belongs to exactly one hex segment; there are no gaps or unsegmented land. The hex structure follows the continuous landscape and remains subtle: rivers, roads, hills and forests flow naturally across cell boundaries. The grid continues beneath fog.
+
+Mid-season layout: a developed western kingdom on the left and a developed eastern kingdom on the right, separated by a broad band of neutral territory. Do not show every house. At this zoom show only broad development intensity, compact settlement masses, a few town-center silhouettes, major roads, rivers, forests, hills, and two modest discovered neutral points of interest: one ancient stone dungeon entrance/ruin and one pale natural mineral outcrop.
+
+This image must clearly demonstrate that OWNERSHIP and VISIBILITY are two independent visual channels:
+
+OWNERSHIP:
+- Absolutely no red, blue, yellow, or other faction-colored surface fills.
+- Western-controlled hexes are identified ONLY by thin restrained rust-red boundary outlines.
+- Eastern-controlled hexes are identified ONLY by thin restrained slate-blue boundary outlines.
+- Neutral known hexes use ordinary subtle gray outlines.
+- No third faction, no yellow ownership, no gold highlight.
+
+VISIBILITY, from the western kingdom player's perspective:
+1. CURRENTLY OBSERVED: natural full-color terrain, clear and undimmed.
+2. PREVIOUSLY SEEN but not currently observed: the exact same terrain and last-known structures remain readable under one uniform slight neutral-charcoal translucent veil, approximately 15–20% darkening, with no color shift.
+3. TERRA INCOGNITA: completely opaque matte black cells. No terrain, faction, structure, point of interest, or ownership may be visible inside them. Only very subtle neutral dark-gray hex seams may remain so the segmentation is legible.
+
+All western-owned cells are currently observed and therefore bright natural color.
+Show several eastern-owned cells with the SAME slate-blue ownership outlines but DIFFERENT visibility states: one small eastern frontier cell is actively observed and therefore bright natural terrain, while adjacent eastern cells are previously seen and therefore under the slight gray veil. This is the key visual proof that blue means ownership, not visibility.
+Most known neutral frontier cells are previously seen under the same slight gray veil; include one small currently observed neutral scouting area in natural full color with only neutral gray hex outlines and absolutely no yellow highlight.
+Place terra incognita mainly around the outer unexplored reaches as contiguous opaque black hex regions.
+
+The overall image must remain easy to read and not too dark: only terra incognita is truly black; stale territory is only gently dimmed. Keep the whole map clean, low-poly, uncluttered, and surface-based.
+
+No UI panels, no labels, no legend, no text, no icons floating above the map, no parchment, no decorative compass, no dramatic vignette, no isolated grid overlay, no checkerboard ownership fills, no glowing borders.

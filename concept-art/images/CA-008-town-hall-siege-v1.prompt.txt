@@ -1,0 +1,22 @@
+Use case: stylized-concept
+Asset type: one 16:9 game concept-art scene for Kingdom RPG
+
+Use Image 1 as the strict visual-style reference: the same grounded clean low-poly 3D language, angular readable characters, restrained adult proportions, faceted trees and rocks, large simple forms, muted natural palette, believable wood and stone, soft daylight, and low visual noise. Do not copy its exact scene, character, first-person weapon, or text.
+
+Primary scene:
+A wide cinematic establishing view of a medieval town-hall siege in progress. The TOWN HALL is unmistakably the main subject in the center-right: a sturdy two-story civic building with a stone ground floor, heavy timber upper structure, broad entrance, small bell tower, exterior gallery and practical defensive parapets. It is a local kingdom town hall, larger and tougher than a house but NOT a royal palace, castle, fortress, cathedral, or fantasy citadel.
+
+Several defending characters with restrained slate-blue cloth accents stand visibly on the upper gallery, roofline and improvised parapets. They carry shields, bows or spears and defend the entrance from above. Their silhouettes are clear and blocky in the same low-poly style as the reference.
+
+In the foreground and midground, several attacking characters with restrained rust-red cloth accents operate ONE clearly readable siege engine: a heavy wheeled wooden battering ram with a simple sloped hide-and-timber roof. The ram is being pushed toward the damaged main doors. A few attackers protect it with shields; one small supply cart with spare beams and stones sits behind them. Keep the number of characters moderate, approximately 10–14 total, with readable spacing rather than a crowd.
+
+Show material evidence of an ongoing siege: splintered door planks, a few cracked stones, arrows stuck in timber, dust near the ram, displaced fence sections, and trampled ground. The town hall remains standing and recognizable. Surround it with a modest inhabited segment—road, a few distant low buildings, fields and forest edge—without turning the scene into a dense city.
+
+Composition:
+Wide ground-level three-quarter view, slightly elevated enough to read the ram, attackers, town hall and defenders in one frame. The siege engine leads the eye from lower-left toward the town hall at center-right. The town hall must remain fully visible and not be hidden by smoke, characters or the ram.
+
+Mood:
+Tense, physical, organized assault in cool overcast afternoon daylight. Grounded and serious, but not grimdark. No dramatic sunset, no excessive fire, no giant smoke clouds.
+
+Constraints:
+One coherent image only. No UI, no labels, no floating icons, no text, no progress bar, no hex grid, no map view. No magic, monsters, heroic posing, gore, corpses, modern armor, shiny high-fantasy plate, gigantic armies, giant castle walls, trebuchets, catapults, multiple siege engines, banners filling the image, or cinematic explosions. Do not add names above characters. Preserve the clean low-poly visual language and avoid small decorative clutter.
