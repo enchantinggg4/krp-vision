@@ -15,6 +15,7 @@ const sidebars: SidebarsConfig = {
         'camera-and-perspective',
         'exploration',
         'inventory-and-item-logistics',
+        'combat-and-death',
         'ownership-and-infrastructure',
       ],
     },
@@ -64,7 +65,6 @@ const sidebars: SidebarsConfig = {
           items: [
             'thought-experiments/active/TE-030-offensive-theses',
             'thought-experiments/active/TE-029-diversion-boundaries',
-            'thought-experiments/active/TE-028-combat-and-death-requirement-theses',
             'thought-experiments/active/TE-007-extraction-and-construction-boundary',
             'thought-experiments/active/TE-005-forest-progression-breakthroughs',
             'thought-experiments/active/TE-003-physical-trade-and-logistics',

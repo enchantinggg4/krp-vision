@@ -1,0 +1,23 @@
+Use case: precise-object-edit
+Asset type: revised Kingdom RPG CA-009 gameplay concept art
+
+Image 1 is the EDIT TARGET.
+
+Primary edit:
+Replace only the weapon in the unseen player's RIGHT foreground hand. The current weapon reads as a dagger or oversized dirk. Change it into an unmistakable plain medieval one-handed arming sword.
+
+Sword requirements:
+- clearly recognizable full-length one-handed arming sword;
+- straight double-edged steel blade approximately 85–95 cm in world scale;
+- blade visibly much longer and slimmer than the current object;
+- simple straight crossguard, compact leather-wrapped one-handed grip and small round pommel;
+- believable proportions relative to the player's hand, shield and distant enemy;
+- held low at the lower-right, angled forward toward the opponent;
+- reduce extreme perspective foreshortening so the visible blade unmistakably reads as a sword rather than a dagger;
+- grounded, functional and unornamented low-poly construction; dull iron, no fantasy styling.
+
+Preserve exactly:
+The opponent, opponent's axe and committed overhead wind-up, opponent pose and clothing, player left hand and shield, both characters' positions, first-person framing, camera, open distance, clearing, fences, trees, mountains, overcast lighting, muted palette, low-poly style, image dimensions and all other scene content.
+
+Constraints:
+Change only the player's right-hand weapon and the minimum necessary hand grip around it. Do not change the shield, opponent, environment, camera or composition. Do not add UI, text, blood, extra people, extra weapons, scabbard, magic, ornament, motion trails or effects. Exactly one sword in the player's right hand.

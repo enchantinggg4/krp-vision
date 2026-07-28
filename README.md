@@ -41,6 +41,7 @@ pnpm start
 - [Королевства и локальная кооперация](design/kingdoms-and-local-cooperation.md)
 - [Экономика и стартовый набор ресурсов](design/economy-and-resources.md)
 - [Инвентарь и предметная логистика](design/inventory-and-item-logistics.md)
+- [Бой и смерть](design/combat-and-death.md)
 - [Камера и перспектива](design/camera-and-perspective.md)
 - [Концепт-арты и визуальные thought experiments](concept-art/README.md)
 - [Принятые решения](design/decisions.md)

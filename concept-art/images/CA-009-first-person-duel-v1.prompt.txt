@@ -1,0 +1,31 @@
+Use case: stylized-concept
+Asset type: one 16:9 Kingdom RPG gameplay concept-art scene for CA-009, testing a simple one-versus-one melee fight.
+
+Input images:
+- Image 1: visual-style reference only for the grounded clean low-poly language, muted natural palette, angular characters, large readable forms and restrained environment.
+- Image 2: visual-style reference only for the same low-poly medieval material treatment and faction accents. Do not reuse its siege composition, building, crowd or siege equipment.
+
+Primary request:
+Create a completely new first-person 1v1 melee scene that visually explains the accepted simple combat model. Freeze the moment just before an opponent's committed attack reaches its active phase.
+
+Scene/backdrop:
+A quiet open dirt clearing at the edge of a modest medieval settlement, with only a low rough fence, a few grass patches, dark conifers and soft distant mountains. No battle, army or dramatic siege. Overcast daylight with clear silhouettes.
+
+Composition/framing:
+- True first-person gameplay viewpoint, wide 16:9 horizontal frame.
+- Exactly two combatants total: the unseen player represented only by their two foreground hands/equipment, and exactly one full-body enemy centered several meters ahead.
+- Player foreground: a modest wooden shield in the left hand, partially raised and covering only the left/front sector; a short plain sword in the right hand, held low and ready. Keep both compact so they do not obscure the opponent.
+- Enemy: one grounded medieval fighter with no shield, both hands on a long-handled axe, visibly in the wind-up of one broad committed attack. The pose must be readable and weighty, not acrobatic. The enemy is still outside immediate contact, so spacing and timing are obvious.
+- Keep generous empty space between the fighters. The visual story is shield and distance versus a readable heavy wind-up.
+
+Style/medium:
+Polished grounded low-poly 3D game concept art matching the references: angular adult characters, simple planes, restrained detail, believable wood/iron/wool/leather materials, serious but not grimdark, not photorealistic.
+
+Color palette:
+Muted earth, pine green, weathered brown and grey. Give the enemy a restrained rust-red cloth accent. The player's gear remains neutral brown and dull iron.
+
+Lighting/mood:
+Soft overcast natural light, tense and focused but not cinematic spectacle. Clear readable weapon silhouettes and body pose.
+
+Constraints:
+One coherent image only. Exactly one enemy. No UI, reticle, health bar, stamina bar, text, labels, names, icons, arrows, tutorial overlays or watermark. No blood, gore, wounds, corpse or downed character. No magic, fantasy glow, ornate armor, heroic pose, motion trails, parry sparks, dodge roll, directional attack indicators, combo effects, target lock marker, third-person camera, extra limbs, extra weapons, crowds, horses, siege engines, castle or burning village. Do not make the scene look like Mordhau-style complex fencing; it should feel simple, physical and readable.
