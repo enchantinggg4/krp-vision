@@ -117,7 +117,7 @@ export default function Home(): ReactNode {
               <h3>Открытые вопросы</h3>
               <p>Только механические неопределённости, способные изменить игровой цикл.</p>
             </Link>
-            <Link className={styles.workbenchItem} to="/design/thought-experiments/active/TE-030-offensive-theses">
+            <Link className={styles.workbenchItem} to="/design/thought-experiments">
               <span>Работа</span>
               <h3>Thought experiments</h3>
               <p>Сценарии, требования и проверки до переноса решения в канон.</p>

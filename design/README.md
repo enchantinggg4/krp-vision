@@ -7,7 +7,7 @@
 1. [Что это за игра](game-overview.md) — короткий визуальный обзор от личного хозяйства до сезонной борьбы королевств.
 2. [Основной цикл](core-loop.md) — связь личной игры, экономики, локальной кооперации, королевств и сезонной победы.
 3. [Столпы дизайна](design-pillars.md) — критерии, которым должны соответствовать механики.
-4. Системные документы, включая [специализацию](specialization.md), [экономику](economy-and-resources.md), [инвентарь](inventory-and-item-logistics.md), [строительство](construction.md), [бой и смерть](combat-and-death.md), [собственность](ownership-and-infrastructure.md), [камеру](camera-and-perspective.md) и [королевства](kingdoms-and-local-cooperation.md), — текущее описание отдельных частей игры.
+4. Системные документы, включая [специализацию](specialization.md), [экономику](economy-and-resources.md), [инвентарь](inventory-and-item-logistics.md), [строительство](construction.md), [бой и смерть](combat-and-death.md), [собственность](ownership-and-infrastructure.md), [камеру](camera-and-perspective.md), [королевства](kingdoms-and-local-cooperation.md) и [войну](war-and-siege.md), — текущее описание отдельных частей игры.
 5. [Открытые вопросы](open-questions.md) — реальные механические развилки.
 6. [Принятые решения](decisions.md) — краткий журнал оснований текущей модели.
 7. [Backlog](backlog.md) — баланс, контент, реализация и будущие проверки.

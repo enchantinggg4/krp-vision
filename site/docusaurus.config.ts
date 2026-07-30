@@ -146,7 +146,7 @@ const config: Config = {
           items: [
             {label: 'Принятые решения', to: '/design/decisions'},
             {label: 'Открытые вопросы', to: '/design/open-questions'},
-            {label: 'Активные эксперименты', to: '/design/thought-experiments/active/TE-030-offensive-theses'},
+            {label: 'Активные эксперименты', to: '/design/thought-experiments'},
           ],
         },
         {

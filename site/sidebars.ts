@@ -33,6 +33,7 @@ const sidebars: SidebarsConfig = {
       label: 'Королевство',
       items: [
         'kingdoms-and-local-cooperation',
+        'war-and-siege',
         'public-projects',
         'petitions',
       ],
@@ -63,7 +64,6 @@ const sidebars: SidebarsConfig = {
           label: 'Активные',
           collapsed: false,
           items: [
-            'thought-experiments/active/TE-030-offensive-theses',
             'thought-experiments/active/TE-029-diversion-boundaries',
             'thought-experiments/active/TE-007-extraction-and-construction-boundary',
             'thought-experiments/active/TE-005-forest-progression-breakthroughs',
